@@ -7,3 +7,8 @@ Administración versionado web
 3. se añaden los cambios con "git add ."
 4. y una vez utilizado se puede aplicar el commit "git commit -m 'primer test commit inicial' "
 5. por último enviar los cambios al github con un push "git push"
+
+# Commit documentos diagramas
+Branch documentos-diagramas:
+1. archivo pdf: Sitio web definitivo
+2. archivo .vsdx: archivo visio manipulable
