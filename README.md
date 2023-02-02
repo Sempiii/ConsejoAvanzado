@@ -15,3 +15,7 @@ Administración versionado web
 4. footer en validacion --validar<i> 
 5. cards body para perfiles linkdin --validar<CardItem>
 
+# react-web-formulario
+1. Diseño formulario con props: nombres, correo, numero de contacto, descripcion encargo
+2. Redirecciones página
+3. Pendiente: redireccion renderizado en otra pestaña de linkedin, modulo Model:Bootstrap, redirecciones de footer

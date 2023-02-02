@@ -2,5 +2,10 @@ import React from 'react';
 import '../../App.css';
 
 export default function Nosotros() {
-  return <h1 className='products'>NOSOTROS</h1>;
+  return (
+
+    <div>
+      <h1 className='nosotros'>NOSOTROS</h1>
+    </div>
+  )
 }

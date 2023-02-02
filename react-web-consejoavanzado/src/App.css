@@ -6,19 +6,59 @@
   }
   
   .home,
-  .servicios,
+  .gestiones,
+  .arquitectura,
+  .construccion,
+  .informatica,
+  .marketing,
   .nosotros,
   .contactos,
   .registrarse {
     display: flex;
-    height: 90vh;
+    height: 90%;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
   }
   
-  .services {
-    background-image: url('/images/img-2.jpg');
+  .gestiones {
+    background-image: url('/src/images/img-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(7, 30, 62);
+    font-size: 100px;
+  }
+
+  .arquitectura {
+    background-image: url('/src/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .construccion {
+    background-image: url('/src/images/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .informatica {
+    background-image: url('/src/images/img-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .marketing {
+    background-image: url('/src/images/img-5.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,17 +66,26 @@
     font-size: 100px;
   }
   
-  .products {
-    background-image: url('/images/img-1.jpg');
+  .nosotros {
+    background-image: url('/src/images/img-6.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
+
+  .contactos {
+    background-image: url('/src/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
   
-  .sign-up {
-    background-image: url('/images/img-8.jpg');
+  .registrarse {
+    background-image: url('/src/images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
