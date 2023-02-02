@@ -1,0 +1,22 @@
+.fondo1{
+  background: linear-gradient(55deg, #096894 10%, #2d296a 75%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.l_blanco{
+    color:#fff;
+    margin-left: 40px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.TL_blanco{
+    margin-top: 20px;
+    color:#fff;
+    margin-left: 40px
+}

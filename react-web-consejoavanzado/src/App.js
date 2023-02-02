@@ -8,8 +8,8 @@ import Footer from './Components/Footer'
 import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom'; //switch is no longer available at this version
 
 import Home from './Components/Pages/Home';
-import Nosotros from './Components/Pages/Nosotros';
-import Contactos from './Components/Pages/Contactos';
+import Nosotros from './Components/Pages/Nosotros2';
+import Contactos from './Components/Pages/Formulario';
 import PageError from './Components/Pages/PageErrors'
 
 function App() {

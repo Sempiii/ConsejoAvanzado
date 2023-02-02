@@ -7,6 +7,7 @@ import axios from 'axios';
 import styles from '../formulario.module.css'
 import { Col, Figure, Row } from "react-bootstrap";
 import fondo from '../../images/Office_footer.png'
+import FadeIn from 'react-fade-in/lib/FadeIn';
 
 export default function Formulario() {
 
@@ -50,7 +51,7 @@ export default function Formulario() {
 
 
     return (
-        <>
+        <FadeIn>
             {/*
             <Row
             style={{
@@ -97,7 +98,7 @@ export default function Formulario() {
 
                             <label htmlFor='user_email'>Correo</label>
                             <input type="email" id='email' 
-                            placeholder='user_mail@gmail.com'
+                            placeholder='Example@gmail.com'
                             name="email"
                             value={formData.email}
                             onChange={handleInputChange}
@@ -170,7 +171,7 @@ export default function Formulario() {
 
 
 
-        </>
+        </FadeIn>
     );
     
 }

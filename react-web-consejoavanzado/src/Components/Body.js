@@ -1,8 +1,7 @@
 import React from "react";
 import '../App';
 import Footer from './Footer'
-
-
+import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 //import { Button } from './Button';
 
@@ -21,6 +20,7 @@ export default function Body() {
         
         
             <FadeIn>
+                
                 <Row 
                     style={{
                         backgroundImage: 'url(../images/Office_rain.png)',
@@ -108,7 +108,7 @@ export default function Body() {
                 style={
                     {
 
-                        backgroundImage: 'url(../images/Office_Shallow.png)',
+                        backgroundColor: '#1f427b',
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
@@ -125,43 +125,41 @@ export default function Body() {
                         
                         minHeight:'70vh',
                         maxHeight:'300vh',
-                        height:'130vh',
+                        height:'50vh',
                         width: '100%',
                         margin: 'auto'
-                        }}   >
+                        }} >
 
                         {/*COLUMNA GESTION PROYECTOS */}
                                  
                                 
-                    <Col
-                        
-                        style={{
-                            
-                            display: 'flex',
-                            flex: '1',
-                            borderRadius: '10px',
-                            marginLeft:'10px', 
-                            ///paddingLeft:'-3px',
-                            width:'35%',
-                            marginTop:'-11%',
-                            backgroundColor:'#1f427b'
-                            
-                            
-                        }}>
+                    <Col  style={{
+                                display: 'flex',
+                                flex: '1',
+                                marginLeft:'10px',
+                                ///marginRight:'100px',  
+                                paddingLeft:'0px',
+                                width:'35%',
+                                marginTop:'-8%',
+                    }}>
+                        <Row>
                         
 
                                 <img 
                                 src="/images/Profile_Luis.png"
                                 style={{
-                                    width:'275px', height:'275px',
+                                    width:'275px',
+                                    maxWidth: '100%',
+                                    minWidth: '100%',
+                                    height: '275px',
                                     position:'flex-row',
-                                    margin: '136px 20px 20px 25px',
-                                    ///margin: '50px 0 45px',
+                                    margin: '105px 20px 20px 25px',
                                     zIndex:'0',
                                     borderRadius:'10px',
                                     justifyContent:'center',
                                     alt:'images'
                                 }}  />
+                        </Row>
                             <Figure className='figure_label' label='Director Ejecutivo'>
                                 <Figure.Caption>
                                     <h5 
@@ -579,3 +577,22 @@ export default function Body() {
 
     
 }
+/// esto es para que tengan la misma altura pero falla 
+const styles = {
+    image: {
+      width: '100%',
+      maxWidth: '100%',
+      height: 'auto',
+      minWidth: '100%'
+    }
+  };
+const StyledImg = styled.img`
+width:'275px';
+height:'275px';
+position:'flex-row';
+margin: '136px 20px 20px 25px';
+zIndex:'0';
+borderRadius:'10px';
+justifyContent:'center';
+alt:'images;
+`;
