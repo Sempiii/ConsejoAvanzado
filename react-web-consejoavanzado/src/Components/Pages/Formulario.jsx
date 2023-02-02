@@ -69,15 +69,19 @@ export default function Formulario() {
             style={
                 {   
                     backgroundImage:'url(../../images/Office_footer.png)',
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundAttachment: 'fixed',
                 }
             }>
                 <Col
-                        styles= {{
-                            
-                            backgroundColor: '#4a6b92',
-                            textAlign:'center',
-                            color:'#fafafa',
-                        }}>
+                    styles= {{
+                        
+                        backgroundColor: '#4a6b92',
+                        textAlign:'center',
+                        color:'#fafafa',
+                    }}>
                     
                     <form onSubmit={handleSubmit} className={styles.form_form}>
                                 {/* Data */}

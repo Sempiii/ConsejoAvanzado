@@ -4,10 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   position: sticky;
   top: 0;
   z-index: 999;
+  border-radius: 5px;
 }
 
 .navbar-container {
@@ -16,6 +17,7 @@
   align-items: center;
   height: 70px;
   max-width: 1800px;
+  
 }
 
 .navbar-logo {
@@ -34,11 +36,7 @@
   margin-left: 50px;
   
 }
-/*
-.navbar-logo2 {
 
-  margin-left: 10px;
-}*/
 
 .fa-typo3 {
   margin-left: 5.5rem;
@@ -202,7 +200,7 @@
 }
 
 /*BUTTON DROPDOWN*/
-.buttonDp{
-  /*border-color: #fff !important;*/
+/*.buttonDp{
+  border-color: #fff !important;
   background-color: #1d0e75 !important;
-}
+}*/
