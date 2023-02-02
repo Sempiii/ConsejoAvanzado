@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .gestiones,
+  .arquitectura,
+  .construccion,
+  .informatica,
+  .marketing,
+  .nosotros,
+  .contactos,
+  .registrarse {
+    display: flex;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .gestiones {
+    background-image: url('/src/images/img-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(7, 30, 62);
+    font-size: 100px;
+  }
+
+  .arquitectura {
+    background-image: url('/src/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .construccion {
+    background-image: url('/src/images/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .informatica {
+    background-image: url('/src/images/img-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .marketing {
+    background-image: url('/src/images/img-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .nosotros {
+    background-image: url('/src/images/img-6.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .contactos {
+    background-image: url('/src/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .registrarse {
+    background-image: url('/src/images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
