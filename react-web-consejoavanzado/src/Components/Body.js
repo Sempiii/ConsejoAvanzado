@@ -1,5 +1,6 @@
 import React from "react";
 import '../App';
+import Footer from './Footer'
 
 
 import {Link} from 'react-router-dom';
@@ -127,14 +128,7 @@ export default function Body() {
                         height:'130vh',
                         width: '100%',
                         margin: 'auto'
-                        /*
-                        marginTop:'10%',
-                        height:'500px', width:'100%',
-                        justifyContent: "flex-start", 
-                        maxWidth:'100%', 
-                        position: 'relative',
-                        margin: '50px -15px'
-                    */}}   >
+                        }}   >
 
                         {/*COLUMNA GESTION PROYECTOS */}
                                  
@@ -150,7 +144,7 @@ export default function Body() {
                             ///paddingLeft:'-3px',
                             width:'35%',
                             marginTop:'-11%',
-                            backgroundColor:'#0a6793'
+                            backgroundColor:'#1f427b'
                             
                             
                         }}>
@@ -228,7 +222,7 @@ export default function Body() {
                                 paddingLeft:'-3px',
                                 width:'35%',
                                 marginTop:'-8%',
-                                backgroundColor:'#135688'
+                                backgroundColor:'#1f427b'
                                 
                             }}>
                                 <img 
@@ -551,112 +545,8 @@ export default function Body() {
                 </Row>
                 
                 {/*----------- FOOTER ------------*/}
-                <Row
-                style={{
-                    backgroundImage: 'url(../images/Office_rain.png)',
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundAttachment: 'fixed',
 
-                    marginTop:'0%',
-                    maxWidth:'1803px', 
-                    width:'101%',
 
-                    }}>
-
-                    <Col
-                    style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-                            justifyItems:'center',
-                            color:'#fff',
-                            textDecoration:'none'
-                            
-                        }
-                    }>
-                            <div className='footer-link-items'>
-                                <h2>Sobre nosotros</h2>{/* */}
-                                <ul>
-                                    <li to='/sign-up'> Como funciona </li>
-                                    <li to='/'>Proyectos</li>
-                                    <li to='/'>Términos de Servicio</li>
-                                </ul>
-                                
-                            </div>
-                    </Col>
-
-                    <Col
-                    style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-                            justifyItems:'center',
-                            color:'#fff',
-                            textDecoration:'none'
-                            
-                        }
-                    }>
-                            <div className='footer-link-items'>
-                                <h2>Servicios</h2>
-                                <ul>
-                                    <li to='/'>Términos de Servicio</li>
-                                </ul>
-                                
-                               
-                            </div>
-                    </Col>
-                        
-                    <Col
-                    style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-                            justifyItems:'center',
-                            color:'#fff',
-                            textDecoration:'none'
-                            
-                        }
-                    }>
-                        <div className='footer-link-wrapper'>
-                            <div className='footer-link-items'>
-                                <h2>Colaboraciones</h2>
-                                <ul>
-                                    <li to='/'>Agencias de terceros</li>
-                                    
-                                </ul>                              
-                            </div>
-                        </div>
-                    </Col>
-                    <Col
-                        style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-                            justifyItems:'center',
-                            color:'#fff',
-                            textDecoration:'none'
-                            
-                        }
-                        }>
-                
-                        <div className='footer-link-items'>
-                            <h2>Redes Sociales</h2>
-                            <ul>
-                                <li to='/'>Linkdn</li>
-                                <li to='/'>Instagram</li>
-                            </ul>
-
-                        </div>
-                        
-                    </Col>
-                        
-                </Row>
             </FadeIn>     
 
         

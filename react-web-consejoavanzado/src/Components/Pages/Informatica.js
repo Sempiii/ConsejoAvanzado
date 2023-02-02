@@ -3,7 +3,9 @@ import '../../App.css';
 
 
 export default function Informatica() {
-  return <h1 className='informatica'> INFORMATICA</h1>;
+  return (
+  <h1 className='informatica'> INFORMATICA</h1>
+  )
 }
 
 

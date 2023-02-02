@@ -43,25 +43,34 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to='/inicio' className='navbar-logo1' onClick={closeMobileMenu}>
-                    <img 
-                        style={{ marginLeft: "-20px", width: "160%", height: "80px"}}
-                        src={logo}
-                        className = "logo-CA"
-                        alt = "logo"
-                    />
-                    {/*<i className='fab fa-typo3'/>*/}
-                </Link>
+                <ul className='navbar-container'>
+                    <Link to='/' name='navbar-logo1'  className='navbar-logo1' onClick={closeMobileMenu}>
+                        <div>
+                            <img 
+                                
+                                style={{ marginLeft: "-20px", width: "160%", height: "80px"}}
+                                src={logo}
+                                className = "logo-CA"
+                                alt = "logo"
+                            />
+                        </div>
+                        
+                    </Link>
 
-                <Link to='/' className='navbar-logo1'>
-                    <img 
-                        style={{ marginLeft: "20%", width: "35%", height: "18%" }}
-                        src={logo2}
-                        className = "logo-CA1"
-                        alt = "logo1"
-                    />
-                </Link>
-
+                   
+                        <div className='navbar-logo1'>
+                            <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/luiscastrohuerta/'>
+                                <img 
+                                    style={{ marginLeft: "20%", width: "35%", height: "18%" }}
+                                    src={logo2}
+                                    className = "logo-CA1"
+                                    alt = "logo1"
+                                />
+                            
+                            </a>
+                        </div>
+                    
+                </ul>
 
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                     <li className='nav-item'>
