@@ -25,7 +25,7 @@ export default function Nosotros() {
                         height={400}
                         alt="Foto de oficina"
                         src={fondo}
-                        className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos.
+                        className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
                         />
                     </Figure>
                 </Col>
