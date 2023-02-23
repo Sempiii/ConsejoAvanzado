@@ -1,95 +1,84 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .gestiones,
-  .arquitectura,
-  .construccion,
-  .informatica,
-  .marketing,
-  .nosotros,
-  .contactos,
-  .registrarse {
-    display: flex;
-    height: 90%;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .gestiones {
-    background-image: url('/src/images/img-1.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(7, 30, 62);
-    font-size: 100px;
-  }
+.gestiones,
+.arquitectura,
+.informatica,
+.marketing {
+  width: 100.5%;
+  background: linear-gradient(55deg, #096894 10%, #2d296a 65%);
 
-  .arquitectura {
-    background-image: url('/src/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+  color: rgb(209, 216, 226);
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 
-  .construccion {
-    background-image: url('/src/images/img-3.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+  font-family: 'Arial', 'sans-serif', 'Open Sans';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
 
-  .informatica {
-    background-image: url('/src/images/img-4.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.body-texto{
+  margin: 5% 4% 7% 4%;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  .marketing {
-    background-image: url('/src/images/img-5.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .nosotros {
-    background-image: url('/src/images/img-6.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.body-texto2{
+  margin: 30% 4% 10% 4%;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  .contactos {
-    background-image: url('/src/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .registrarse {
-    background-image: url('/src/images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
+.col-md-12 {
+  padding: 6% 4% 20% 2%;
+  height: 40%;
+}
+
+.title{
+  width: 96%;
+  text-align: center;
+  margin: 5% 0% 3% 5%;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pic-orientation{
+	margin: 0% 0% 0% 0%;
+}
+
+/*
+
+.gestiones {
+  background-image: url('./images/img-5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.arquitectura {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.marketing {
+  background-image: url('./images/img-5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+
+.informatica {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}*/

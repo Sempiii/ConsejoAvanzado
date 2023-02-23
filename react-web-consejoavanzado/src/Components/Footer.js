@@ -1,149 +1,54 @@
 import React from 'react';
-import './Footer.css';
+import './Css/Footer.css';
 
-import logo from '../logo-CA.png'
+
 import FadeIn from 'react-fade-in/lib/FadeIn';
 
 import {Link} from 'react-router-dom';
-import { Col, Figure, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap"; //Figure
+
+
+
 
 export default function Footer() {
   return (
     <FadeIn>
-       {/*----------- FOOTER ------------*/}
-       <Row
-                style={{
-                    backgroundImage: 'url(../images/Office_rain.png)',
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundAttachment: 'fixed',
+       <Row className='row-footer'>
 
-                    marginTop:'0%',
-                    maxWidth:'1803px', 
-                    width:'101%',
-
-                   
-
-                    }}>
-
-                    <Col
-                    style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-
-                            justifyItems:'center',
-                            
-                            
-                            color:'#fff',
-                            fontSize:'1.5rem'
-                            
-                        }
-                    }>
-                            <div className='footer-link-items'>
-                                <h2>Sobre nosotros</h2>{/* */}
-                                <ul
-                                style={{
-                                    listStyle:'none',
-                                }}>
-                                    <Link to='/nosotros'><li> Como funciona </li></Link>
-                                    <Link to='/nosotros'><li>  Proyectos </li></Link>
-                                </ul>
-                                
-                            </div>
-                    </Col>
-
-                    <Col
-                    style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-                            
-                            justifyItems:'center',
-                            textDecoration:'none',
-                            
-                            color:'#fff',
-                            fontSize:'1.5rem'
-                            
-                            
-                        }
-                    }>
-                            <div className='footer-link-items'>
-                                <h2>Servicios</h2>
-                                <ul
-                                style={{
-                                    listStyle:'none',
-                                }}>
-                                    <Link to='/nosotros'><li>Términos de Servicio</li></Link>
-                                </ul>
-                                
-                               
-                            </div>
-                    </Col>
+            <Col className='diseño-col-box'>
+                    <div className='footer-link-items'>
+                        <h2 className='subtitulo'>Sobre nosotros</h2>
+                        <ul>
+                            <Link to='/nosotros'><li> Como funciona </li></Link>
+                        </ul>
                         
-                    <Col
-                    style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
+                    </div>
+            </Col>
 
-                            justifyItems:'center',
-                            
-                            
-                            color:'#fff',
-                            fontSize:'1.5rem'
-                            
-                        }
-                    }>
-                        <section>
-                        <div className='footer-link-wrapper'>
-                            <div className='footer-link-items'>
-                                <h2>Colaboraciones</h2>
-                                <ul
-                                style={{
-                                    listStyle:'none',
-                                }}>
-                                    <a target="_blank" rel="noopener noreferrer" href=' https://www.lacalle.cl/'><li>Agencias de terceros</li></a>
-                                </ul>                              
-                            </div>
-                        </div>
-                        </section>
-                    </Col>
-
-                    <Col
-                        style={
-                        {
-                            marginTop:'10%', marginLeft: "2%", marginRight:'2%',
-                            maxHeight:'900px', maxWidth:'1795px', 
-                            height:'500px', width:'100%',
-
-                            justifyItems:'center',
-                            
-                            
-                            color:'#fff',
-                            fontSize:'1.5rem'
-                            
-                        }
-                        }>
+            <Col className='diseño-col-box'>
+                    <div className='footer-link-items'>
+                        <h2 className='subtitulo'>Servicios</h2>
+                        <ul>
+                            <Link to='/nosotros'><li>Términos de Servicio</li></Link>
+                        </ul>                                                           
+                    </div>
+            </Col>
                 
-                        <div className='footer-link-items'>
-                            <h2>Redes Sociales</h2>
-                            <ul
-                            style={{
-                                listStyle:'none',
-                            }}>
-                                <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com'><li>Linkedin</li></a>
-                                <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com'><li>Instagram</li></a>
-                            </ul>
-                        </div>
-                        
-                    </Col>
-                        
-                </Row>
+
+            <Col className='diseño-col-box'>
+                <div className='footer-link-wrapper'>
+                    <div className='footer-link-items'>
+                        <h2 className='subtitulo'>Redes Sociales</h2>
+                        <ul>
+                            <li>
+                                <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/company/consultor%C3%ADa-consejo-avanzado/'>Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </Col>
+            
+        </Row>
     </FadeIn>
   );
 }

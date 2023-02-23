@@ -1,0 +1,63 @@
+.row-body{
+    background-image: url('../../images/pexels-andrew.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    z-index: 0;
+    min-height: 70vh;
+    height: 50%;
+    margin-bottom: 0%;
+    width: 100.5%;
+}
+
+.titulo-body{
+
+    margin: 10% 4% 0% 4%;
+    width: 90%;
+    background-color: #fff;
+    
+    text-align: center;
+    font-size: 70px;
+
+    color: #213e78;
+    box-shadow: 0 6px 20px rgba(36, 92, 196, 0.67);
+
+}
+
+
+.col-body{
+    width:100%;
+}
+
+
+.texto-body{
+    display:flex;
+    margin:10% 2% 25% 2%;
+    height:100%;
+
+    font-size:30px;
+    text-decoration:none;
+    text-justify:auto;
+    z-index:-1;
+    background-color:#213137;
+    color:whitesmoke;
+}
+
+@media (min-width: 551px) {
+    .row-body{
+    width: 100.5%;
+    justify-content: center;
+    }
+
+    .titulo-body{
+        width: 96%;
+    }
+
+    .row-cards{
+        width: 72.7%;
+    }
+
+}
