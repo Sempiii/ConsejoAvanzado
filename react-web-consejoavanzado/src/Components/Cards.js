@@ -8,9 +8,8 @@ function Cards() {
   return (
     <div className='cards'>
       <h1 className='titulo'>Profesionales</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+
+          <ul className='cards__items' >
             
             <CardItem
               src='images/Profile_Luis.png'
@@ -50,8 +49,7 @@ function Cards() {
             <div>
           </div>
         </div>
-      </div>
-    </div>
+
     
   );
 }

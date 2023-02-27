@@ -14,16 +14,15 @@
 }
 
 .titulo-body{
-
-    margin: 10% 4% 0% 4%;
-    width: 90%;
-    background-color: #fff;
-    
     text-align: center;
     font-size: 70px;
-
-    color: #213e78;
+    border-radius: 5px;
+    max-width: 92% ;
+    margin:10vh 0vh 0vh 10vh;
     box-shadow: 0 6px 20px rgba(36, 92, 196, 0.67);
+    color: #213b6d;
+    background-color: #fff;
+    opacity: 1.5;
 
 }
 
@@ -35,7 +34,7 @@
 
 .texto-body{
     display:flex;
-    margin:10% 2% 25% 2%;
+    margin:10% 2% 16% 2%;
     height:100%;
 
     font-size:30px;

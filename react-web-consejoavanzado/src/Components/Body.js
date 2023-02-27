@@ -48,7 +48,7 @@ export default function Body() {
                 >
                   <Col
                   style={{
-                      width:'100%', margin: '0,0,0,0', padding:'0'
+                      width:'100%', margin: '0,0,0,0', padding:'0',
                   }}>
                     <Cards />
                   </Col>

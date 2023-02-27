@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  border-radius: 5px;
+
   width: 160%;
 }
 
@@ -89,7 +89,7 @@
 
 @media (min-width: 551px) {
   .row-navbar{
-  width: 73%;
+  width: 100.5%;
   justify-content: center;
   }
 
@@ -180,7 +180,7 @@
 }
 
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (min-width: 1300px) {
   .row-navbar{
     width: 100.5%;
     justify-content: center;

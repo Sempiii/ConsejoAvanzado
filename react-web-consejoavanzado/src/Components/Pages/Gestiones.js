@@ -14,23 +14,25 @@ export default function Gestion() {
     <FadeIn>
       <Row className='informatica'>
         
-      <Col xs={12} className='cols-seccionesGestion'>
+      <Col xs={12} className='cols-seccionesGestion' style={{ backgroundImage: 'url(../../images/pexels-desk.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
             <div>
               <h1 className='title'> Gestion, Dirección y Evaluación de proyectos </h1>
               
             </div>
-            <p className='body-texto'>
-              Sección enfocada a la evaluación, gestión y dirección de proyectos. Que tiene la 
-              tarea de dirigir proyectos de diversos ámbitos de la formas más eficiente posible, 
-              haciendo uso de herramientas que se adaptan a el tipo de proyecto en desarrollo. 
-              Esta sección se encuentra liderada por un profesional titulado en Ingeniería civil 
-              industrial, y por su perfil adaptativo calza con lo necesario para esta sección. Y que 
-              por lo tanto se le asigna el cargo de Director de proyecto
-            </p>
+            <div>
+              <p className='body-texto' style={{paddingLeft: '9%'}}>
+                Sección enfocada a la evaluación, gestión y dirección de proyectos. Que tiene la 
+                tarea de dirigir proyectos de diversos ámbitos de la formas más eficiente posible, 
+                haciendo uso de herramientas que se adaptan a el tipo de proyecto en desarrollo. 
+                Esta sección se encuentra liderada por un profesional titulado en Ingeniería civil 
+                industrial, y por su perfil adaptativo calza con lo necesario para esta sección. Y que 
+                por lo tanto se le asigna el cargo de Director de proyecto
+              </p>
+            </div>
         </Col>
       </Row>
       <Row className='informatica'>
-        <Col xs={12} sm={12} md={7} className='cols-secciones'>
+        <Col xs={12} md={6} style={{paddingLeft: '10%'}}>
             
             <div>
               <p className='body-texto'>
@@ -56,14 +58,14 @@ export default function Gestion() {
             </div>
         </Col>
 
-        <Col xs={12} sm={12} md={5}>
-          <Figure>
+        <Col xs={12} md={6}>
+          <Figure className='mx-auto' style={{paddingRight: '20%'}}>
             <Figure.Image
-              width={1200}
-              height={1200}
+              width='80%'
+              height='80%'
               alt="Foto de oficina"
               src={fondoa}
-              className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
+              className={styles.officeImage}
               />
           </Figure>
         </Col>
@@ -71,19 +73,19 @@ export default function Gestion() {
 
       <Row className='informatica'>
         
-        <Col xs={12} sm={12} md={7}>
-          <Figure className='pic-orientation'>
+        <Col xs={12} md={6}>
+          <Figure className='mx-auto' style={{paddingLeft: '20%'}}>
             <Figure.Image
-              width={1200}
-              height={1200}
-              alt="Foto de oficina"
+              width='80%'
+              height='80%'
+              alt="Foto de oficinistas"
               src={fondob}
               className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
             />
           </Figure>
         </Col>
 
-        <Col xs={12} sm={12} md={5}>
+        <Col xs={12} md={6} style={{paddingRight: '10%'}}>
           <p className='body-texto'>
             La dirección de proyectos consta de llevar a cabo un seguimiento dentro del 
             desarrollo del proyecto, junto a la utilización de herramientas y habilidades 

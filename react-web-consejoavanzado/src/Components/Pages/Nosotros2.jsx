@@ -4,7 +4,8 @@ import styles from '../Css/formulario.module.css';
 
 
 import { Col, Figure, Row } from "react-bootstrap";
-import fondo from '../../images/Office_footer.png'
+import fondo from '../../images/Office_footer.png';
+import logoT from '../..//images/Logo_blanco.png';
 import FadeIn from 'react-fade-in/lib/FadeIn';
 
 export default function Nosotros() {
@@ -34,11 +35,11 @@ export default function Nosotros() {
                 <Col xs={12} sm={12} md={5}>
                     <Figure className='pic-orientation'>
                         <Figure.Image
-                        width={1800}
-                        height={1800}
+                        width='100%'
+                        height='100%'
                         alt="Foto de oficina"
-                        src={fondo}
-                        className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
+                        src={logoT}
+                        className={styles.officeImage} 
                         />
                     </Figure>
                 </Col>
@@ -46,78 +47,94 @@ export default function Nosotros() {
 
             <Row className='fondo2'>
 
-                <Col md={11}>
-                    <h1 className='TL_blanco-sec1-col2'>Metodología</h1>
-                    <p className='l_blanco-sec1-col2'> Tomamos en cuenta las dos
-                    metodologías mas utilizadas en los últimos dos siglos 
-                    para llevar a cabo los proyectos a nuestro cargo, 
-                    dependiendo de la naturaleza de estos, tomaremos 
-                    características de una u otra metodología, teniendo
-                    en mente el desarrollo más eficiente del proyecto en 
-                    turno, y tomando en cuenta los requerimientos y 
-                    restricciones del cliente. 
-                    </p>
-                </Col>
-            </Row>
-
-            <Row className='fondo2'>
-
-                <Col xs={12} sm={12} md={6}>
-                    <Figure className='col-img-left-sec2-col2'>
-                        <Figure.Image
-                        width={1800}
-                        height={1800}
-                        alt="Foto de oficina"
-                        src={fondo}
-                        className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
-                        />
-                    </Figure>
-                </Col>
-
-                <Col xs={12} sm={12} md={6} className='col-text-right-sec2-col2'>
-
-                    <h1 className='TL_blanco-sec2-col3-title'>Metodología en cascada</h1>
-                    <p className='l_blanco-sec3-col3'>
-                    Una metodología en cascada generalmente se puede definir como un proceso lineal y
-                    secuencial, y esta misma característica complica su adaptabilidad, ya que esta,
-                    no permite regresar a una fase previa o se hace muy complicado, sus etapas se 
-                    componen de: 
-                    </p>
-                    <div className='align-text-sec3-col3'>
-                        <h2 className='TL_blanco-sec2-col3-title'>Definir los requerimientos</h2>
-                        <p>En esta primera etapa, se definen los 
-                        requerimientos del proyecto a través de diversas herramientas, ya sea lluvias de 
-                        idea, reuniones, especificaciones, etc. Estos requerimientos se definen dentro de 
-                        un documento para distribuirlo dentro del equipo encargado, y será la guía de lo 
-                        que debe cumplir el proyecto.</p>
-                        <p>
-                        <h2>Anteproyecto</h2>
-                        Esta etapa refiere al diseño del proyecto o sistema, es decir, fase 
-                        donde se definen las especificaciones del proyecto, ejemplo, las herramientas que 
-                        serán necesarias para el proyecto.
-                        Puesta en marcha: Es donde el proyecto se desarrolla en primera instancia, donde 
-                        se toma toda la información que ya se tiene de las etapas anteriores y se crea un 
-                        primer producto.
-                        <h2>Pruebas</h2>
-                        Fase que compete las pruebas del producto llevada a cabo por 
-                        profesionales, esta puede definir pequeños cambios o si existen muchos incidentes 
-                        quizá el regreso a la definición de requerimientos.
-                        <h2>Estrega del producto</h2>
-                        Etapa donde se hace entrega del producto y todos los 
-                        entregables necesarios, para su implementación.
-                        Mantenimiento o Observación: Ultima etapa que compete la observación del proyecto 
-                        y quizá llevar a cabo pequeñas actualizaciones para el correcto funcionamiento de 
-                        este. Si se presentan demasiados incidentes quizá es requerido volver al comienzo 
-                        del proyecto.
+                    <Col xs={12} md={6} style={{paddingLeft:'5%'}}>
+                        <Figure className='col-img-left-sec2-col2'>
+                            <Figure.Image
+                            width='80%'
+                            height='80%'
+                            alt="Foto de oficina"
+                            src={fondo}
+                            className={styles.officeImage}
+                            />
+                        </Figure>
+                    </Col>
+                    <Col  xs={12} md={6} style={{paddingRight:'5%'}}>  
+                        <h1 className='h1-sec3'>Metodología</h1>
+                        <p className='l_blanco-sec1-col2'> Tomamos en cuenta las dos
+                        metodologías más utilizadas en los últimos dos siglos
+                        para llevar a cabo los proyectos a nuestro cargo,
+                        dependiendo de la naturaleza de estos, tomaremos
+                        características de una u otra metodología, teniendo
+                        en mente el desarrollo más eficiente del proyecto en
+                        turno, y tomando en cuenta los requerimientos y
+                        restricciones del cliente.
                         </p>
-                    </div>
-                </Col>
+                    </Col>
+
+            </Row>
+
+            <Row className='fondo2'>
+
+
+                <Row style={{justifyContent: 'center'}}>
+                    <Col xs={14} md={7} className='col-text-right-sec2-col2'>
+
+                        <h1 className='h4-sec3'>Metodología en cascada</h1>
+                        <p className='l_blanco-sec3-col3'>
+                        Una metodología en cascada generalmente se puede definir como un proceso lineal y
+                        secuencial, y esta misma característica complica su adaptabilidad, ya que esta,
+                        no permite regresar a una fase previa o se hace muy complicado, sus etapas se 
+                        componen de: 
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={10} md={6} className='col-text-right-sec2-col2'>
+                        <div className='align-text-sec3-col3'>
+                            <h2 className='h2-sec3'>Definir los requerimientos</h2>
+                                <p className='p-sec3'>
+                                En esta primera etapa, se definen los 
+                                requerimientos del proyecto a través de diversas herramientas, ya sea lluvias de 
+                                idea, reuniones, especificaciones, etc. Estos requerimientos se definen dentro de 
+                                un documento para distribuirlo dentro del equipo encargado, y será la guía de lo 
+                                que debe cumplir el proyecto.</p>
+                                <h2 className='h2-sec3'>Anteproyecto</h2>
+                                <p className='p-sec3'>
+                                Esta etapa refiere al diseño del proyecto o sistema, es decir, fase 
+                                donde se definen las especificaciones del proyecto, ejemplo, las herramientas que 
+                                serán necesarias para el proyecto.
+                                Puesta en marcha: Es donde el proyecto se desarrolla en primera instancia, donde 
+                                se toma toda la información que ya se tiene de las etapas anteriores y se crea un 
+                                primer producto.
+                                </p>
+                        </div>
+                    </Col>
+                    <Col xs={10} md={6} className='col-text-right-sec2-col2' style={{paddingRight:'5%'}}>
+                        <div className='align-text-sec3-col3'>
+                            <h2 className='h2-sec3'>Pruebas</h2>
+                                <p className='p-sec3'>
+                                Fase que compete las pruebas del producto llevada a cabo por 
+                                profesionales, esta puede definir pequeños cambios o si existen muchos incidentes 
+                                quizá el regreso a la definición de requerimientos.
+                                </p>
+                            <h2 className='h2-sec3'>Estrega del producto</h2>
+                                <p className='p-sec3'>
+                                Etapa donde se hace entrega del producto y todos los 
+                                entregables necesarios, para su implementación.
+                                Mantenimiento o Observación: Ultima etapa que compete la observación del proyecto 
+                                y quizá llevar a cabo pequeñas actualizaciones para el correcto funcionamiento de 
+                                este. Si se presentan demasiados incidentes quizá es requerido volver al comienzo 
+                                del proyecto.
+                                </p>    
+                        </div>
+                    </Col>
+                </Row>
             </Row>
 
                 
             <Row className='fondo3'>
 
-                <Col xs={12} sm={7} md={6}>
+                <Col xs={12} sm={7} md={6} className='col-text-right-sec2-col2' style={{paddingLeft:'5%'}}>
                     <h1 className='h1-sec3'>Metodología Scrum</h1>
                     <p className='p-sec3'>
                         Esta metodología se caracteriza por tener ámbitos adaptativos gracias a su desarrollo 
@@ -142,8 +159,8 @@ export default function Nosotros() {
                 <Col xs={12} sm={12} md={6}>
                     <Figure className='col-img-left-sec2-col2'>
                         <Figure.Image
-                        width={1800}
-                        height={1800}
+                        width='80%'
+                        height='80%'
                         alt="Foto de oficina"
                         src={fondo}
                         className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
@@ -158,8 +175,8 @@ export default function Nosotros() {
                 <Col xs={12} sm={12} md={6}>
                     <Figure className='col-img-left-sec2-col2'>
                         <Figure.Image
-                        width={1800}
-                        height={1800}
+                        width='80%'
+                        height='80%'
                         alt="Foto de oficina"
                         src={fondo}
                         className={styles.officeImage} /// imagen que tendra a todos los integrantes juntos. :)
@@ -167,7 +184,7 @@ export default function Nosotros() {
                     </Figure>
                 </Col>
 
-                <Col xs={12} sm={7} md={6}>
+                <Col xs={12} sm={7} md={6} className='col-text-right-sec2-col2' style={{paddingRight:'5%'}}>
                     <h2 className='h2-sec3'>Revisión del Sprint</h2>
                     <p className='p-sec3'>
                     Etapa donde se evalúan los resultados del sprint, se genera una 

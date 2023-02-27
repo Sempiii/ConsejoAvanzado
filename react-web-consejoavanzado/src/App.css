@@ -2,7 +2,7 @@
 .arquitectura,
 .informatica,
 .marketing {
-  width: 100.5%;
+  width: 101%;
   background: linear-gradient(55deg, #096894 10%, #2d296a 65%);
 
   color: rgb(209, 216, 226);
@@ -16,8 +16,32 @@
   line-height: 1.7em;
 }
 
+.obras{
+  width: 100.5%;
+  background-image: url('./images/casa_1.png');
+  color: rgb(209, 216, 226);
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+  font-family: 'Arial', 'sans-serif', 'Open Sans';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.descripcion-texto{
+  margin: 1% 10% 0% 0%;
+  font-family: 'Open Sans', sans-serif;
+}
+.descripcion-texto2{
+  margin: 1% 10% 0% 0%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: end;
+}
+
 .body-texto{
-  margin: 5% 4% 7% 4%;
+  margin: 5% 10% 5% 1%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -43,6 +67,87 @@
 	margin: 0% 0% 0% 0%;
 }
 
+.cols-secciones{
+	margin: 0% 10% 0% 0%;
+}
+.etiqueta-profesional {
+	margin: 1% 0% 1% 0% ;
+	color: #fff;
+
+	text-align: center;
+	
+	justify-content:center;
+	margin: 0%;
+}
+.Nombre-profesional {
+	margin: 10% 0% 10% 0% ;
+	color: #fff;
+  
+	padding-top: 15%;
+	text-align: justify;
+	
+	justify-content:start;
+	margin: 0%;
+}
+
+.Nombre-obra2 {
+	margin: 10% 0% 10% 0% ;
+	color: #fff;
+  
+	padding-top: 15%;
+	text-align: end;
+	
+	justify-content:center;
+	margin: 0%;
+}
+
+@media only screen and (min-width: 360px) {
+.gestiones,
+.arquitectura,
+.informatica,
+.marketing {
+  width: 101%;
+  background: linear-gradient(55deg, #096894 10%, #2d296a 65%);
+
+  color: rgb(209, 216, 226);
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+  font-family: 'Arial', 'sans-serif', 'Open Sans';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+}
+
+@media only screen and (min-width: 500px) {
+  .gestiones,
+  .arquitectura,
+  .informatica,
+  .marketing {
+    width: 102%;
+    background: linear-gradient(55deg, #096894 10%, #2d296a 65%);
+  
+    color: rgb(209, 216, 226);
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  
+    font-family: 'Arial', 'sans-serif', 'Open Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7em;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  
+}
+
+@media only screen and (min-width: 360px) {
+  
+}
 /*
 
 .gestiones {

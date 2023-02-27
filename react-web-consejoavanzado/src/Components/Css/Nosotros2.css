@@ -151,3 +151,13 @@ p {
   text-align: start;
   color: #fff;
 }
+
+.h4-sec3{
+  color: #fff;
+  
+  padding: 4%;
+  text-align: center;
+  
+  justify-content:space-between;
+  margin: 0%;
+}
